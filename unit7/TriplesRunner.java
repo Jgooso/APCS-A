@@ -1,0 +1,17 @@
+package unit7;
+
+//(c) A+ Computer Science
+// www.apluscompsci.com
+//Name -  
+
+import static java.lang.System.*;
+
+public class TriplesRunner
+{
+   public static void main(String args[])
+   {
+	   Triples trip = new Triples();
+	   trip.setNum(110);
+	   trip.getTriples();
+	}
+}
