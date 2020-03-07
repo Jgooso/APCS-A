@@ -84,8 +84,8 @@ class ToyStore
   			
   	}
   	public String myName(){
-			System.out.println("First Name Last Name");
-			return "";
+			System.out.println("Joshua Goodman");
+			return "Joshua Goodman";
 			}
   	  
 	public String toString()
