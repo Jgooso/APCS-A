@@ -97,6 +97,12 @@ Make sure to include the following in your response.
    or method, how it would change or be implemented, including visibility and type. 
    You do not need to describe the getCheapestGizmoByMaker method.
    DO NOT write code for this part.
-
+	The gizmo would need a variable to hold cost and the constructor needs to set this.
+	Get methods would be needed for this variable getCost().
+	The OnlinePurchaserManager would have a method getCheapestGizmoByMaker(String maker) which would take a string
+	and would have an gizmo cheapest in it that would be starting undefined.
+	the method would have a for loop loop through the purchased ArrayList and check if the maker matches the maker 
+	that it was passed. If it did, it would check if that gizmo's getValue was lower than cheapest, the chepaest variable
+	would be set to the new gizmo.
 */
 
